@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Carioca Restaurante | O sabor que é a cara do Rio 🍋🍕🍔🍓🥗</title>
+  <meta name="description" content="A Carioca Restaurante — Pizzas, hambúrgueres, saladas e muito mais. O melhor da culinária carioca com sabor e qualidade.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="A Carioca Restaurante">
+  <meta property="og:description" content="O sabor que é a cara do Rio. Pizzas, hambúrgueres, saladas e sobremesas.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://acarioca.restaurante">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER / NAVBAR ========== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="header__logo">
+        <span class="logo-icon">🍋</span>
+        <span class="logo-text">A Carioca</span>
+      </a>
+
+      <nav class="header__nav" id="navbar">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active">Início</a></li>
+          <li><a href="#about" class="nav__link">Sobre</a></li>
+          <li><a href="#menu" class="nav__link">Cardápio</a></li>
+          <li><a href="#gallery" class="nav__link">Galeria</a></li>
+          <li><a href="#testimonials" class="nav__link">Avaliações</a></li>
+          <li><a href="#contact" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a href="https://wa.me/5521999999999" class="btn btn--whatsapp header__cta" target="_blank" rel="noopener">
+        <i class="fab fa-whatsapp"></i> Peça agora
+      </a>
+
+      <button class="header__toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <span class="hero__badge">🍕 Restaurante</span>
+      <h1 class="hero__title">A Carioca</h1>
+      <p class="hero__subtitle">O sabor que é a cara do Rio</p>
+      <p class="hero__description">Pizzas artesanais, hambúrgueres suculentos, saladas frescas e sobremesas irresistíveis — tudo com o tempero carioca que você ama.</p>
+      <div class="hero__actions">
+        <a href="#menu" class="btn btn--primary">
+          <i class="fas fa-utensils"></i> Ver Cardápio
+        </a>
+        <a href="https://wa.me/5521999999999" class="btn btn--outline" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> Fazer Pedido
+        </a>
+      </div>
+      <div class="hero__scroll-indicator">
+        <span>Role para baixo</span>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SOBRE NÓS ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__image reveal">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=700&fit=crop" 
+               alt="Interior do restaurante A Carioca" 
+               width="600" height="700" loading="lazy">
+          <div class="about__image-badge">
+            <span class="badge-number">+5</span>
+            <span class="badge-text">anos de sabor</span>
+          </div>
+        </div>
+        <div class="about__content reveal">
+          <span class="section__tag">Conheça a gente</span>
+          <h2 class="section__title">Mais do que um restaurante, <br><em>uma experiência carioca</em></h2>
+          <p class="about__text">
+            Nascemos com o sonho de levar o melhor da gastronomia carioca para a sua mesa. 
+            Cada prato é preparado com ingredientes frescos, selecionados com carinho, 
+            para criar experiências únicas que vão do clássico ao contemporâneo.
+          </p>
+          <p class="about__text">
+            Seja uma pizza artesanal com massa feita na hora, um hambúrguer com blend especial 
+            da casa, ou uma salada fresca com tempero brasileiro — aqui, cada mordida conta 
+            uma história.
+          </p>
+          <div class="about__features">
+            <div class="feature">
+              <div class="feature__icon">🍕</div>
+              <div>
+                <h4>Pizzas Artesanais</h4>
+                <p>Massa fresca feita diariamente</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature__icon">🍔</div>
+              <div>
+                <h4>Hambúrgueres Premium</h4>
+                <p>Blend exclusivo da casa</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature__icon">🥗</div>
+              <div>
+                <h4>Saladas Frescas</h4>
+                <p>Ingredientes selecionados</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature__icon">🍓</div>
+              <div>
+                <h4>Sobremesas & Sucos</h4>
+                <p>Frutas da estação</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CARDÁPIO ========== -->
+  <section class="menu section section--alt" id="menu">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">Nosso Cardápio</span>
+        <h2 class="section__title">Sabores que conquistam</h2>
+        <p class="section__subtitle">Escolha entre nossas categorias e descubra pratos que vão te surpreender</p>
+      </div>
+
+      <!-- Menu Category Tabs -->
+      <div class="menu__tabs reveal">
+        <button class="menu__tab active" data-category="all">
+          <span>🍽️</span> Todos
+        </button>
+        <button class="menu__tab" data-category="pizza">
+          <span>🍕</span> Pizzas
+        </button>
+        <button class="menu__tab" data-category="burger">
+          <span>🍔</span> Hambúrgueres
+        </button>
+        <button class="menu__tab" data-category="salad">
+          <span>🥗</span> Saladas
+        </button>
+        <button class="menu__tab" data-category="dessert">
+          <span>🍓</span> Sobremesas
+        </button>
+      </div>
+
+      <!-- Menu Items Grid -->
+      <div class="menu__grid">
+        <!-- Pizzas -->
+        <div class="menu__card reveal" data-category="pizza">
+          <div class="menu__card-image">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop" 
+                 alt="Pizza Margherita" width="400" height="300" loading="lazy">
+            <span class="menu__card-badge">⭐ Popular</span>
+          </div>
+          <div class="menu__card-body">
+            <h3>Pizza Margherita</h3>
+            <p>Molho de tomate fresco, mozzarella de búfala, manjericão e azeite extra virgem</p>
+            <div class="menu__card-footer">
+              <span class="menu__price">R$ 45,90</span>
+              <a href="https://wa.me/5521999999999?text=Olá! Gostaria de pedir a Pizza Margherita" class="btn btn--sm" target="_blank" rel="noopener">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu__card reveal" data-category="pizza">
+          <div class="menu__card-image">
+            <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop" 
+                 alt="Pizza Calabresa Especial" width="400" height="300" loading="lazy">
+          </div>
+          <div class="menu__card-body">
+            <h3>Calabresa Especial</h3>
+            <p>Calabresa artesanal, cebola roxa caramelizada, pimentão e orégano fresco</p>
+            <div class="menu__card-footer">
+              <span class="menu__price">R$ 42,90</span>
+              <a href="https://wa.me/5521999999999?text=Olá! Gostaria de pedir a Pizza Calabresa" class="btn btn--sm" target="_blank" rel="noopener">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu__card reveal" data-category="pizza">
+          <div class="menu__card-image">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop" 
+                 alt="Pizza Quatro Queijos" width="400" height="300" loading="lazy">
+          </div>
+          <div class="menu__card-body">
+            <h3>Quatro Queijos</h3>
+            <p>Mozzarella, gorgonzola, parmesão e provolone com toque de mel trufado</p>
+            <div class="menu__card-footer">
+              <span class="menu__price">R$ 52,90</span>
+              <a href="https://wa.me/5521999999999?text=Olá! Gostaria de pedir a Pizza Quatro Queijos" class="btn btn--sm" target="_blank" rel="noopener">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Burgers -->
+        <div class="menu__card reveal" data-category="burger">
+          <div class="menu__card-image">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop" 
+                 alt="Burger Carioca Clássico" width="400" height="300" loading="lazy">
+            <span class="menu__card-badge">🔥 Mais Vendido</span>
+          </div>
+          <div class="menu__card-body">
+            <h3>Burger Carioca Clássico</h3>
+            <p>Blend 180g, queijo cheddar, bacon crocante, alface, tomate e molho especial da casa</p>
+            <div class="menu__card-footer">
+              <span class="menu__price">R$ 38,90</span>
+              <a href="https://wa.me/5521999999999?text=Olá! Gostaria de pedir o Burger Carioca" class="btn btn--sm" target="_blank" rel="noopener">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu__card reveal" data-category="burger">
+          <div class="menu__card-image">
+            <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=400&h=300&fit=crop" 
+                 alt="Smash Burger Duplo" width="400" height="300" loading="lazy">
+          </div>
+          <div class="menu__card-body">
+            <h3>Smash Burger Duplo</h3>
+            <p>Dois smash patties, queijo americano, cebola crispy, picles e molho BBQ defumado</p>
+            <div class="menu__card-footer">
+              <span class="menu__price">R$ 44,90</span>
+              <a href="https://wa.me/5521999999999?text=Olá! Gostaria de pedir o Smash Burger Duplo" class="btn btn--sm" target="_blank" rel="noopener">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu__card reveal" data-category="burger">
+          <div class="menu__card-image">
+            <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=400&h=300&fit=crop" 
+                 alt="Burger Veggie" width="400" height="300" loading="lazy">
+          </div>
+          <div class="menu__card-body">
+            <h3>Burger Veggie</h3>
+            <p>Hambúrguer de grão-de-bico, queijo muçarela, rúcula, tomate seco e pesto</p>
+            <div class="menu__card-footer">
+              <span class="menu__price">R$ 36,90</span>
+              <a href="https://wa.me/5521999999999?text=Olá! Gostaria de pedir o Burger Veggie" class="btn btn--sm" target="_blank" rel="noopener">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Salads -->
+        <div class="menu__card reveal" data-category="salad">
+          <div class="menu__card-image">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop" 
+                 alt="Bowl Tropical" width="400" height="300" loading="lazy">
+          </div>
+          <div class="menu__card-body">
+            <h3>Bowl Tropical</h3>
+            <p>Mix de folhas, manga, abacate, frango grelhado, granola salgada e molho de maracujá</p>
+            <div class="menu__card-footer">
+              <span class="menu__price">R$ 34,90</span>
+              <a href="https://wa.me/5521999999999?text=Olá! Gostaria de pedir o Bowl Tropical" class="btn btn--sm" target="_blank" rel="noopener">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu__card reveal" data-category="salad">
+          <div class="menu__card-image">
+            <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400&h=300&fit=crop" 
+                 alt="Caesar Salad Premium" width="400" height="300" loading="lazy">
+          </div>
+          <div class="menu__card-body">
+            <h3>Caesar Salad Premium</h3>
+            <p>Alface romana, croutons artesanais, parmesão lascado, frango e molho caesar</p>
+            <div class="menu__card-footer">
+              <span class="menu__price">R$ 32,90</span>
+              <a href="https://wa.me/5521999999999?text=Olá! Gostaria de pedir a Caesar Salad" class="btn btn--sm" target="_blank" rel="noopener">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu__card reveal" data-category="dessert">
+          <div class="menu__card-image">
+            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&h=300&fit=crop" 
+                 alt="Açaí da Casa" width="400" height="300" loading="lazy">
+            <span class="menu__card-badge">💜 Favorito</span>
+          </div>
+          <div class="menu__card-body">
+            <h3>Açaí da Casa</h3>
+            <p>Açaí puro batido com banana, granola, leite em pó, mel e frutas da estação</p>
+            <div class="menu__card-footer">
+              <span class="menu__price">R$ 24,90</span>
+              <a href="https://wa.me/5521999999999?text=Olá! Gostaria de pedir o Açaí da Casa" class="btn btn--sm" target="_blank" rel="noopener">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu__card reveal" data-category="dessert">
+          <div class="menu__card-image">
+            <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?w=400&h=300&fit=crop" 
+                 alt="Petit Gateau" width="400" height="300" loading="lazy">
+          </div>
+          <div class="menu__card-body">
+            <h3>Petit Gateau</h3>
+            <p>Bolinho quente de chocolate belga com sorvete de baunilha e calda de frutas vermelhas</p>
+            <div class="menu__card-footer">
+              <span class="menu__price">R$ 28,90</span>
+              <a href="https://wa.me/5521999999999?text=Olá! Gostaria de pedir o Petit Gateau" class="btn btn--sm" target="_blank" rel="noopener">Pedir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu__card reveal" data-category="dessert">
+          <div class="menu__card-image">
+            <img src="https://images.unsplash.com/photo-1546039907-7b2baa582764?w=400&h=300&fit=crop" 
+                 alt="Suco Natural Tropical" width="400" height="300" loading="lazy">
+          </div>
+          <div class="menu__card-body">
+            <h3>Suco Natural Tropical</h3>
+            <p>Suco fresco de frutas da estação — maracujá, manga, acerola ou limão siciliano</p>
+            <div class="menu__card-footer">
+              <span class="menu__price">R$ 14,90</span>
+              <a href="https://wa.me/5521999999999?text=Olá! Gostaria de pedir um Suco Natural" class="btn btn--sm" target="_blank" rel="noopener">Pedir</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERIA ========== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">Nossos Momentos</span>
+        <h2 class="section__title">Galeria de sabores</h2>
+        <p class="section__subtitle">Cada prato é uma obra de arte. Confira nossos melhores momentos</p>
+      </div>
+
+      <div class="gallery__grid reveal">
+        <div class="gallery__item gallery__item--wide">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=500&fit=crop" 
+               alt="Prato especial do chef" width="800" height="500" loading="lazy">
+          <div class="gallery__overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=400&fit=crop" 
+               alt="Pizza artesanal" width="400" height="400" loading="lazy">
+          <div class="gallery__overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=400&fit=crop" 
+               alt="Hambúrguer premium" width="400" height="400" loading="lazy">
+          <div class="gallery__overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=400&fit=crop" 
+               alt="Prato colorido" width="400" height="400" loading="lazy">
+          <div class="gallery__overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery__item gallery__item--tall">
+          <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=400&h=800&fit=crop" 
+               alt="Mesa servida" width="400" height="800" loading="lazy">
+          <div class="gallery__overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop" 
+               alt="Salada fresca" width="400" height="400" loading="lazy">
+          <div class="gallery__overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=400&fit=crop" 
+               alt="Sobremesa especial" width="400" height="400" loading="lazy">
+          <div class="gallery__overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery__item gallery__item--wide">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop" 
+               alt="Ambiente do restaurante" width="800" height="500" loading="lazy">
+          <div class="gallery__overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery__cta reveal">
+        <a href="https://www.instagram.com/acarioca.restaurante/" class="btn btn--instagram" target="_blank" rel="noopener">
+          <i class="fab fa-instagram"></i> Siga-nos no Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DEPOIMENTOS ========== -->
+  <section class="testimonials section section--alt" id="testimonials">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">O que dizem</span>
+        <h2 class="section__title">Avaliações dos nossos clientes</h2>
+        <p class="section__subtitle">A opinião de quem já experimentou nossos sabores</p>
+      </div>
+
+      <div class="testimonials__carousel reveal">
+        <div class="testimonials__track" id="testimonials-track">
+          <div class="testimonial__card">
+            <div class="testimonial__card-inner">
+              <div class="testimonial__stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial__text">"A melhor pizza que já comi! Massa fininha e crocante, ingredientes super frescos. O ambiente é lindo e o atendimento impecável. Voltarei com certeza!"</p>
+              <div class="testimonial__author">
+                <div class="testimonial__avatar">MC</div>
+                <div>
+                  <h4>Marina Costa</h4>
+                  <span>Cliente desde 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial__card">
+            <div class="testimonial__card-inner">
+              <div class="testimonial__stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial__text">"O smash burger é sensacional! Pedi pelo WhatsApp e chegou super rápido, quentinho e do jeito que pedi. A Carioca é top demais!"</p>
+              <div class="testimonial__author">
+                <div class="testimonial__avatar">RS</div>
+                <div>
+                  <h4>Rafael Santos</h4>
+                  <span>Cliente desde 2022</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial__card">
+            <div class="testimonial__card-inner">
+              <div class="testimonial__stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              </div>
+              <p class="testimonial__text">"O bowl tropical é maravilhoso! Fresco, saudável e muito saboroso. Perfeito para os dias quentes do Rio. A combinação de manga com frango grelhado é perfeita!"</p>
+              <div class="testimonial__author">
+                <div class="testimonial__avatar">JO</div>
+                <div>
+                  <h4>Juliana Oliveira</h4>
+                  <span>Cliente desde 2024</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial__card">
+            <div class="testimonial__card-inner">
+              <div class="testimonial__stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial__text">"Fiz meu aniversário no A Carioca e foi incrível! A equipe ajudou em tudo, a comida estava espetacular e o preço super justo. Recomendo demais!"</p>
+              <div class="testimonial__author">
+                <div class="testimonial__avatar">PA</div>
+                <div>
+                  <h4>Pedro Almeida</h4>
+                  <span>Cliente desde 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials__controls">
+          <button class="testimonials__btn" id="prev-testimonial" aria-label="Depoimento anterior">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div class="testimonials__dots" id="testimonial-dots"></div>
+          <button class="testimonials__btn" id="next-testimonial" aria-label="Próximo depoimento">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LOCALIZAÇÃO & CONTATO ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">Venha nos visitar</span>
+        <h2 class="section__title">Localização & Contato</h2>
+        <p class="section__subtitle">Estamos esperando por você!</p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <div class="contact__card">
+            <div class="contact__card-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <h3>Endereço</h3>
+              <p>Rua Exemplo, 123 — Copacabana<br>Rio de Janeiro — RJ, 22000-000</p>
+            </div>
+          </div>
+
+          <div class="contact__card">
+            <div class="contact__card-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div>
+              <h3>Horário de Funcionamento</h3>
+              <p>Segunda a Sexta: 11h às 23h<br>Sábado e Domingo: 11h às 00h</p>
+            </div>
+          </div>
+
+          <div class="contact__card">
+            <div class="contact__card-icon">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <div>
+              <h3>WhatsApp / Telefone</h3>
+              <p>(21) 99999-9999<br>
+              <a href="https://wa.me/5521999999999" target="_blank" rel="noopener">Clique para chamar no WhatsApp</a></p>
+            </div>
+          </div>
+
+          <div class="contact__card">
+            <div class="contact__card-icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div>
+              <h3>Instagram</h3>
+              <p><a href="https://www.instagram.com/acarioca.restaurante/" target="_blank" rel="noopener">@acarioca.restaurante</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__map reveal">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.7899!2d-43.1729!3d-22.9711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU4JzE2LjAiUyA0M8KwMTAnMjIuNCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890" 
+            width="100%" 
+            height="450" 
+            style="border:0; border-radius: 16px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização do restaurante A Carioca no mapa">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#home" class="footer__logo">
+            <span class="logo-icon">🍋</span>
+            <span class="logo-text">A Carioca</span>
+          </a>
+          <p>O sabor que é a cara do Rio. Pizzas, hambúrgueres, saladas e muito mais.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/acarioca.restaurante/" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/5521999999999" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__links">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#menu">Cardápio</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links">
+          <h4>Horário</h4>
+          <ul>
+            <li>Seg - Sex: 11h às 23h</li>
+            <li>Sáb - Dom: 11h às 00h</li>
+            <li>Feriados: Consulte</li>
+          </ul>
+        </div>
+
+        <div class="footer__newsletter">
+          <h4>Fique por dentro</h4>
+          <p>Receba novidades e promoções exclusivas</p>
+          <form class="footer__form" id="newsletter-form">
+            <input type="email" placeholder="Seu melhor e-mail" required aria-label="E-mail para newsletter">
+            <button type="submit" class="btn btn--primary">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2024 A Carioca Restaurante. Todos os direitos reservados.</p>
+        <p>Feito com ❤️ no Rio de Janeiro</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização de imagem">
+    <button class="lightbox__close" id="lightbox-close" aria-label="Fechar">
+      <i class="fas fa-times"></i>
+    </button>
+    <button class="lightbox__nav lightbox__prev" id="lightbox-prev" aria-label="Imagem anterior">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    <button class="lightbox__nav lightbox__next" id="lightbox-next" aria-label="Próxima imagem">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+    <div class="lightbox__content">
+      <img id="lightbox-img" src="" alt="Imagem ampliada">
+    </div>
+  </div>
+
+  <!-- ========== WHATSAPP FLOAT ========== -->
+  <a href="https://wa.me/5521999999999" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -422,6 +422,8 @@ body.no-scroll {
   border: 2px solid #e0e0e0;
   background-color: var(--color-white);
   cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
   font-weight: 500;
   transition: all 0.3s ease;
   display: flex;
@@ -1197,9 +1199,11 @@ body.no-scroll {
   .menu__tabs {
     justify-content: flex-start;
     overflow-x: auto;
+    overflow-y: visible;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
-    padding-bottom: 8px;
+    padding: 8px 4px;
+    margin: -8px -4px;
     gap: 8px;
     flex-wrap: nowrap;
   }
